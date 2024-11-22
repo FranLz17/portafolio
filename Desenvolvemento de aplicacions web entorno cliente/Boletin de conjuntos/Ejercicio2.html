@@ -1,0 +1,25 @@
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+</head>
+
+<body>
+    <script>
+        let conjunto1 = new Set([1,2,4,5]); //Estamos poñenedo elementos
+        let conjunto2 = new Set([1,2,4,9]);
+        let conjunto3 = new Set([])
+       
+        for (let elemento of conjunto1) {
+            if(conjunto2.has(elemento)){
+                conjunto2.add(elemento)
+            }
+        }
+        
+       
+        console.log(conjunto2)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome for current file",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${file}", // Abre o ficheiro actual
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

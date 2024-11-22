@@ -1,0 +1,24 @@
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabla de multiplicar</title>
+    </head>
+    <body>
+        <script>
+            let soliAno = prompt("Introduzca o ano de nacemento: ")
+            let soliMes = prompt("Introduzca o mes de nacemento: ")
+            let SoliDia = prompt("Introduzca o día de nacemento: ")
+
+  
+            let fechaIntrod = Date(soliAno,soliMes,SoliDia)
+            let fechaActual = Date.now()
+            
+            let calculoEdad = new Date()
+
+            calculoEdad = fechaActual - fechaIntrod
+            console.log(calculoEdad) 
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+</head>
+
+<body>
+    <script>
+        //dados dous conxuntos, elimina do primeiro conxunto os 
+        //elementos que son comúns entre ambos conxuntos.
+
+        let conjunto1 = new Set([1,2,4,5])
+        let conjunto2 = new Set([1,2,8,9])
+
+        for(elemento of conjunto1){
+           if(conjunto2.has(elemento)){
+            conjunto1.delete(elemento)
+           }
+        }
+        console.log(conjunto1)
+
+
+    </script>
+</body>
+
+</html>

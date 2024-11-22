@@ -1,0 +1,25 @@
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+</head>
+
+<body>
+    <script>
+        // Declara un array de prezos e percorre cada elemento, amosando o prezo con IVE (engadindo un 21%).
+        let prezos = [29, 65, 13]
+        let iva = 1.21
+        let prezos_iva = []
+        
+            for (let i in prezos) {
+                if(i<prezos.length){
+                    prezos_iva=prezos[i]*iva 
+                    console.log(prezos_iva)
+                }
+            }
+
+    </script>
+</body>
+
+</html>

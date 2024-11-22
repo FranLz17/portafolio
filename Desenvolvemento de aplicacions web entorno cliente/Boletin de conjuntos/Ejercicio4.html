@@ -1,0 +1,33 @@
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+</head>
+
+<body>
+    <script>
+    //Implementa unha función que toma dous conxuntos e devolve un novo conxunto 
+    //que contén os elementos que están no primeiro conxunto pero non no segundo.
+    let conjunto1 = new Set([1,2,4,5]);
+    let conjunto2 = new Set([3,7,4,9]);
+    let conjunto3 = new Set()
+
+    for(let elemento of conjunto1){
+        if(!conjunto2.has(elemento)){ //Para indicar que un objeto ou variable e diferente usase (!)
+            conjunto3.add(elemento)
+        }
+    }
+    console.log(conjunto3)
+
+
+
+        
+       
+    </script>
+</body>
+
+</html>
+
+
+

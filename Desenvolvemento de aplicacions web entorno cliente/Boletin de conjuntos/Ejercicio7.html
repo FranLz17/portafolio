@@ -1,0 +1,25 @@
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+</head>
+
+<body>
+    <script>
+        // determina se dous conxuntos son iguais, é dicir, conteñen os mesmos elementos, independentemente da orde.
+
+        conjunto1 = new Set([1,2,7,15])
+        conjunto2 = new Set([4,5,6,7])
+
+        for(let elemento of conjunto1){
+            if(conjunto2.has(elemento)){
+                console.log("Son iguales")
+            }else if(!conjunto2.has(elemento)){
+                console.log("Non son iguales")
+            }
+              
+        }
+
+    </script>
+</body>

@@ -1,0 +1,27 @@
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+</head>
+
+<body>
+    <script>
+        // Declara un array números con valores do 1 ao 10. 
+        //Elimina os números 4, 5 e 6, e no seu lugar engade catro, cinco, e seis.
+
+        let numeros = [1,2,3,4,5,6,7,8,9,10]
+        copia=numeros.slice()
+        //let numLetra = ["catro","cinco","seis"]
+        eliminados=numeros.splice(3,3)
+        console.log(eliminados)
+        console.log(numeros)
+
+        copia[3]="catro" 
+        copia[4]="cinco" 
+        copia[5]="seis" 
+        console.log(copia)
+    </script>
+</body>
+
+</html>
